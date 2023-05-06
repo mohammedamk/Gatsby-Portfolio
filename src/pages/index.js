@@ -14,7 +14,7 @@ export default function Home() {
         <div >
           <h1>Design</h1>
           <h3>Develop & Deploy</h3>
-          <p>UX designer & web developer based in Manchester.</p>
+          <p>UX designer & web developer based in Nagpur.</p>
           <Link className="btn" to="/project">Project Portfolio</Link>
         </div>
 
@@ -23,22 +23,46 @@ export default function Home() {
         </div>
       </section>
 
-      {/* <div className="box">
+      <div className="box">
         <div className="box-1">
-        <img src="/gatsby-logo.png"/>
-          <h3>hello1</h3>
+          <img src="custom-app.png" alt="loading" />
+          <h2>Custom Applications</h2>
+          <p>Custom and complex application development in Node JS and React.</p>
         </div>
 
         <div className="box-2">
-          <h3>hello2</h3>
+          <img src="web-development.jpeg" alt="loading" />
+          <h2>Web development</h2>
+          <p>Create receptive and interactive websites & designs with us</p>
         </div>
 
         <div className="box-3">
-          <h3>hello3</h3>
-
+          <img src="mobile-app.png" alt="loading" />
+          <h2>Mobile App Development</h2>
+          <p>Get your mobile app ideas enriched with trends and features</p>
         </div>
 
-      </div> */}
+        <div className="box-4">
+          <img src="ecommerce.png" alt="loading" />
+          <h2>ECommerce Development</h2>
+          <p>Get your next futuristic ecommerce solutions built by us</p>
+        </div>
+
+        <div className="box-5">
+          <img src="shopify.png" alt="loading" />
+
+          <h2>Shopify/WordPress</h2>
+          <p>We are Shopify and WordPress experts</p>
+        </div>
+
+        <div className="box-6">
+          <img src="seo.png" alt="loading" />
+          <h2>SEO & SEM Services</h2>
+          <p>Our experts test all solutions and ensure brilliant performances</p>
+        </div>
+
+
+      </div>
     </Layout>
   )
 }

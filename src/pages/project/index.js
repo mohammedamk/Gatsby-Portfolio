@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../../components/layout";
 import "../../styles/project.module.css"
+import { graphql } from "gatsby";
 
 export default function Project() {
     return (
@@ -12,3 +13,5 @@ export default function Project() {
         </div>
     )
 }
+
+// export const sanket = graphql``

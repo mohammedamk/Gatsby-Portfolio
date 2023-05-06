@@ -32,6 +32,12 @@ nav {
   grid-template-columns: 1fr 1fr;
   margin: 40px auto;
 }
+
+/* nav >img{
+  height: 100px;
+  width: 100px;
+} */
+
 nav .links {
   display: inline-block;
   text-align: right;

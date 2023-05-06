@@ -6,6 +6,7 @@ export default function Navbar() {
 
         
         <nav>
+            {/* <img src="vowel-web.jpeg" alt="loading"/> */}
             <h2>Vowel Web</h2>
             <div className="links">
                 <Link to="/">Home</Link>
