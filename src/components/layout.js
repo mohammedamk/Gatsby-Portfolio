@@ -10,7 +10,7 @@ export default function Layout({ children }) {
                 {children}
             </div>
             <div className="footer">
-                <p>Copyright © 2022 Vowel Web</p>
+                <p>Copyright © 2023 Vowel Web</p>
             </div>
         </div>
     )

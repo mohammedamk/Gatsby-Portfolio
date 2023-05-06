@@ -14,4 +14,4 @@ export default function Project() {
     )
 }
 
-// export const sanket = graphql``
+// export const sanket = graphql`fdgtrhyt`
