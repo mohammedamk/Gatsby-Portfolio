@@ -58,34 +58,53 @@ nav a:hover {
 }
 
 .footer p {
-  
+
   text-align: center;
   justify-content: center;
   color: #bbb;
 }
 
-.about-page{
+.about-page {
   padding: 10px;
 }
 
 
-
-
-
-.portfolio {
-  text-align: left;
-  padding: 10px;
-}
-.portfolio > h2 {
-  font-size: 3em;
-  margin-top: 80px;
-}
-.portfolio > h3 {
-  font-size: 2em;
-  font-weight: 400;
-  border: 1px solid black;
+.portfolio h3 {
+  font-size: x-large;
+  text-align: center;
 }
 
+.portfolio p {
+  text-align: center;
+}
+
+.staticData {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 50px 0px;
+}
+
+
+.staticData {
+font-weight: 200;
+text-align: center;
+}
+.staticData p{
+  margin-top: 5px;
+}
+.projectData{
+margin: 10px 20px;
+padding: 10px;
+}
+.projectData h2{
+  font-weight: 600;
+}
+.projectData p{
+  border-bottom: 1px solid black;
+}
+
+
+ 
 
 /* --------------@media-mobile------------ */
 @media only screen and (max-width:700px) {
@@ -133,21 +152,23 @@ nav a:hover {
     display: block;
     max-width: 100%;
   }
+
   .footer {
     text-align: center;
     justify-content: center;
   }
-  .about-page{
+
+  .about-page {
     border: 1px solid black;
     padding: 10px;
-    font-size:large;
+    font-size: large;
     text-align: center;
   }
 
-.portfolio {
-  text-align: left;
-  padding: 10px;
-}
+  .portfolio {
+    text-align: left;
+    padding: 10px;
+  }
 
 
 }

@@ -3,7 +3,6 @@ import Layout from "../components/layout"
 import "../styles/homaPage.css"
 import { Link } from "gatsby"
 
-
 export default function Home() {
 
 
@@ -82,7 +81,7 @@ export default function Home() {
             <input type="text" name="name" placeholder="Name" />
             <input type="text" placeholder="Current website (if exists)" />
             <input type="text" placeholder="Subject" />
-            <textarea >Your Message..</textarea>
+            {/* <textarea >Your Message..</textarea> */}
           </form>
           <button type="submit" className="btn">Submit Now</button>
         </div>
@@ -100,7 +99,7 @@ export default function Home() {
 
         <div className="image">
         <h3>image pending..</h3>
-          {/* <img src="about-vowelweb.png" /> */}
+          {/* <img src="about-vowelweb.png" alt="loading"/> */}
         </div>
       </div>
       {/* ---/section-2/--- */}
@@ -122,7 +121,7 @@ export default function Home() {
         </div>
 
         <div className="grid-2">
-          <img src="core-values-1.png" />
+          <img src="core-values-1.png" alt="loading"/>
         </div>
       </div>
             {/* ---/componyDeatails/---- */}

@@ -7,14 +7,20 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    `gatsby-transformer-remark`,
+    'gatsby-transformer-remark',
 
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `notes`,
-        path: `${__dirname}/src/notes/`,
+        name: `projects`,
+        path: `${__dirname}/src/projects`
       },
     },
-  ]
-}
+  ],
+  siteMetadata: {
+    titl: "web warrior",
+    description: "Web dev POrtfolio",
+    copyright: "copyright@123456"
+  }
+
+};
