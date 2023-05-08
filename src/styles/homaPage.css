@@ -62,6 +62,20 @@
   background-color: rgba(146, 43, 225, 1) 50%;
 
 }
+.box-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 100%;
+  padding: 10px;
+}
+.box-heading>h1{
+  color: black;
+  border-bottom: 1px solid black ;
+  font-size:50px;
+}
 
 .box-1 {
   background-color: cornsilk;
@@ -266,6 +280,8 @@
   margin: 150px 0px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  box-shadow: 5px 5px 5px   black;
+  /* box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.5); */
 }
 .image {
   width: 100%;
@@ -277,6 +293,8 @@
   width: 90%;
   margin: auto;
   padding: 10px;
+  margin-bottom: 100px;
+
 }
 .aboutdetails>h1 {
   color: black;
@@ -287,7 +305,7 @@
 }
 .aboutdetails .btn {
   background-color: rgb(253, 22, 195);
-  margin-left: 150px;
+  margin:50px 150px;
 }
 
 
@@ -347,7 +365,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   background-color:rgb(218, 206, 182);
   box-shadow: 5px 5px 5px 3px  black;
-  padding: 10px;
+  padding: 20px;
 
 }
 .col-1 {
@@ -439,36 +457,28 @@ margin: 1px auto;
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    margin-bottom: 10px ;
+    margin-bottom: 23px ;
     background-color: rgba(146, 43, 225, 1) 50%;
     }
+    .box-heading{
+      margin-bottom: 5px;
+    }
+    .box-heading>h1{
+      color: black;
+      border-bottom: 1px solid black ;
+      font-size:x-large;
+    }
 
-  /* .box-1 {
-   padding: 10px;
-   margin-bottom:10px;
-  } */
   .box-1 :hover {
     padding: 20px;
     margin-bottom:20px;
    }
 
-   .section-1 {
-    padding: 10px;
-    box-shadow: 5px 5px 5px black;
-    gap: 10px;
-    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
-    margin-top: 55px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-  }
 
 .section-1 {
   padding: 10px;
   box-shadow: 5px 5px 5px black;
-  /* gap: 10px; */
-  background-color: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
-  margin-top: 56px;
+  margin-top: 95px;
   margin-left: 30px;
   display: block;
   grid-template-columns: 1fr 1fr;
@@ -559,10 +569,10 @@ margin: 1px auto;
   display: flex;
   flex-direction: column;
   width: 85%;
-  margin: auto;
   background-color:rgb(218, 206, 182);
   box-shadow: 5px 5px 5px 3px  black;
   padding: 10px;
+  margin: auto;
 }
 .col-1 {
   padding: 10px;
@@ -572,7 +582,8 @@ margin: 1px auto;
   margin: 20px 50px;}
 .col-3 {
   padding: 10px;
-  margin: 20px 50px;}
-
+  margin: 20px 50px;
 }
+}
+
 

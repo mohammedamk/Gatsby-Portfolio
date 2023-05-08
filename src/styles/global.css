@@ -29,6 +29,8 @@ p {
 .layout {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 10px;
+
 }
 
 nav {
@@ -40,6 +42,7 @@ nav {
 nav .links {
   display: inline-block;
   text-align: right;
+  font-size: large;
 }
 
 nav a {
@@ -55,10 +58,34 @@ nav a:hover {
 }
 
 .footer p {
+  
   text-align: center;
   justify-content: center;
   color: #bbb;
 }
+
+.about-page{
+  padding: 10px;
+}
+
+
+
+
+
+.portfolio {
+  text-align: left;
+  padding: 10px;
+}
+.portfolio > h2 {
+  font-size: 3em;
+  margin-top: 80px;
+}
+.portfolio > h3 {
+  font-size: 2em;
+  font-weight: 400;
+  border: 1px solid black;
+}
+
 
 /* --------------@media-mobile------------ */
 @media only screen and (max-width:700px) {
@@ -99,11 +126,28 @@ nav a:hover {
     text-align: center;
     justify-content: center;
     color: #bbb;
+    border-bottom: 1px solid white;
   }
 
   #img1 {
     display: block;
     max-width: 100%;
   }
+  .footer {
+    text-align: center;
+    justify-content: center;
+  }
+  .about-page{
+    border: 1px solid black;
+    padding: 10px;
+    font-size:large;
+    text-align: center;
+  }
+
+.portfolio {
+  text-align: left;
+  padding: 10px;
+}
+
 
 }

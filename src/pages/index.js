@@ -24,6 +24,10 @@ export default function Home() {
       </section>
 
       {/* ----box-1--- */}
+      <div className="box-heading">
+     <h1> Our Exceptional IT Services </h1>
+      </div>
+
       <div className="box">
         <div className="box-1">
           <img src="custom-app.png" alt="loading" />
