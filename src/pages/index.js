@@ -88,14 +88,15 @@ export default function Home() {
 
       {/* ----section-2--- */}
       <div className="aboutSection">
-        <div className="image">
-          <img src="about-vowelweb.png" />
-        </div>
-
         <div className="aboutdetails">
           <h1>About VowelWeb</h1>
           <p>Your success-driving partner for high-quality web/app development and marketing solutions.</p>
           <Link to="https://www.vowelweb.com/about-us/" target="_blank" className="btn">Learn More</Link>
+        </div>
+
+        <div className="image">
+        <h3>image pending..</h3>
+          {/* <img src="about-vowelweb.png" /> */}
         </div>
       </div>
       {/* ---/section-2/--- */}
@@ -149,7 +150,7 @@ export default function Home() {
         </div>
 
         <div className="col-3">
-          <h2>Production</h2>
+          <h2>Recent Posts</h2>
           <ul>
             <li><Link to="https://www.vowelweb.com/safeguarding-data-from-unauthorized-get/" className="foo" target="_blank">Safeguarding Data From Unauthorized get</Link></li>
             <li><Link to="https://www.vowelweb.com/ant-virus-for-i-phone-what-you-need-to-know/" className="foo" target="_blank">Ant-virus For i phone – What You Need to Know</Link></li>

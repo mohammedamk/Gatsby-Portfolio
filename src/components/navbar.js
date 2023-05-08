@@ -3,10 +3,7 @@ import React from "react";
 
 export default function Navbar() {
     return (
-
-        
-        <nav>
-            {/* <img src="vowel-web.jpeg" alt="loading"/> */}
+        <nav className="nav">
             <h2>Vowel Web</h2>
             <div className="links">
                 <Link to="/">Home</Link>
