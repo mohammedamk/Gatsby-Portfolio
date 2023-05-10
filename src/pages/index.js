@@ -72,7 +72,7 @@ console.log(data)
       {/* ----section-1--- */}
       <div className="section-1">
         <div className="sec-1">
-          <img src="/static/5-maintenance-2.png" alt="loading" />
+          <img src="/5-maintenance-2.png" alt="loading" />
         </div>
 
         <div className="sec-2">
@@ -122,7 +122,7 @@ console.log(data)
         </div>
 
         <div className="grid-2">
-          <img src="/static/core-values-1.png" alt="loading"/>
+          <img src="/core-values-1.png" alt="loading"/>
         </div>
       </div>
             {/* ---/componyDeatails/---- */}

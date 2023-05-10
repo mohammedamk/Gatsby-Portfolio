@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 
 
 
-export default function projectDetails() {
+export default function ProjectDetails() {
     return (
         <Layout>
             <div>
