@@ -2,47 +2,73 @@ import { Link, graphql } from "gatsby";
 import React from "react";
 import Layout from "../../components/layout";
 import "../../styles/projects.module.css"
+import Img from "gatsby-image"
 
+export default function Projects( {data} ) {
+  console.log("data",data);
 
-export default function projects({ data }) {
-console.log("data",data)
-  const projects = data.allMarkdownRemark.nodes
-  // console.log(projects)
+  const projectData = data.projects.nodes;
+  console.log("projectData",projectData);
 
+  const contact = data.contact.siteMetadata.contact;
+  console.log("contact",contact);
 
   return (
-    <div className="portfolio">
-      <Layout>
+    <Layout>
+      <div className="portfolio">
         <h3>Project File</h3>
         <p>Project Portfolio , I will make this project</p>
+      </div>
 
-        <div className="staticData">
-          {projects.map(project => (
-            <Link to={"/Project/" + project.frontmatter.slug} key={project.id} >
-              <div className="projectData">
-                <h2>{project.frontmatter.title}</h2>
-                <p>{project.frontmatter.stack}</p>
-              </div>
-            </Link>
+      <div className="staticData">
+        {projectData.map(projects => (
 
-          ))}
-        </div>
-      </Layout>
-    </div>
+          <Link to={"/projects/" + projects.frontmatter.slug} key={projects.id}>
+            <div className="portfoliosData">
+                <Img fluid={projects.frontmatter.thumb.childImageSharp.fluid} />
+              <h3>{projects.frontmatter.title}</h3>
+              <p> {projects.frontmatter.stack} </p>
+            </div>
+          </Link>
+        ))}
+      </div> 
+       <div className="contact">
+        <p> Like what you see? Email me at {contact} for a quote! </p>
+      </div>
+
+    </Layout>
   )
 }
 
-//export page query 
+
+
+
+
+
+
+// export page query 
 export const query = graphql`
 query MyQuery {
-  allMarkdownRemark(sort: {frontmatter: {title: DESC}}) {
+  projects: allMarkdownRemark(sort: {frontmatter: {title: ASC}}) {
     nodes {
       frontmatter {
-        slug
-        stack
         title
+        stack
+        slug
+        thumb {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
       id
+    }
+  }
+  contact: site {
+    siteMetadata {
+      contact
     }
   }
 }

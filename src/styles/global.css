@@ -82,6 +82,7 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 50px 0px;
+
 }
 
 
@@ -92,17 +93,23 @@ text-align: center;
 .staticData p{
   margin-top: 5px;
 }
-.projectData{
+.portfoliosData{
 margin: 10px 20px;
 padding: 10px;
 }
-.projectData h2{
+.portfoliosData h2{
   font-weight: 600;
 }
-.projectData p{
+.portfoliosData p{
   border-bottom: 1px solid black;
 }
 
+.contact{
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
  
 
