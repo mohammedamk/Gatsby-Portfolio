@@ -30,38 +30,38 @@ console.log(data)
 
       <div className="box">
         <div className="box-1">
-          <img src="/static/custom-app.png" alt="loading" />
+          <img src="/custom-app.png" alt="loading" />
           <h2>Custom Applications</h2>
           <p>Custom and complex application development in Node JS and React.</p>
         </div>
 
         <div className="box-2">
-          <img src="/static/web-development.jpeg" alt="loading" />
+          <img src="/web-development.jpeg" alt="loading" />
           <h2>Web development</h2>
           <p>Create receptive and interactive websites & designs with us</p>
         </div>
 
         <div className="box-3">
-          <img src="/static/mobile-app.png" alt="loading" />
+          <img src="/mobile-app.png" alt="loading" />
           <h2>Mobile App Development</h2>
           <p>Get your mobile app ideas enriched with trends and features</p>
         </div>
 
         <div className="box-4">
-          <img src="/static/ecommerce.png" alt="loading" />
+          <img src="/ecommerce.png" alt="loading" />
           <h2>ECommerce Development</h2>
           <p>Get your next futuristic ecommerce solutions built by us</p>
         </div>
 
         <div className="box-5">
-          <img src="/static/shopify.png" alt="loading" />
+          <img src="/shopify.png" alt="loading" />
 
           <h2>Shopify/WordPress</h2>
           <p>We are Shopify and WordPress experts</p>
         </div>
 
         <div className="box-6">
-          <img src="/static/seo.png" alt="loading" />
+          <img src="/seo.png" alt="loading" />
           <h2>SEO & SEM Services</h2>
           <p>Our experts test all solutions and ensure brilliant performances</p>
         </div>
@@ -78,13 +78,13 @@ console.log(data)
         <div className="sec-2">
           <h1>Let's Talk</h1>
           <form>
-            <input type="email" name="email" placeholder="Email" />
             <input type="text" name="name" placeholder="Name" />
+            <input type="email" name="email" placeholder="Email" />
             <input type="text" placeholder="Current website (if exists)" />
-            <input type="text" placeholder="Subject" />
-            {/* <textarea >Your Message..</textarea> */}
+            <input type="text" placeholder="Subject"/>
+            <textarea name="message" placeholder="Message" className="message"/>
           </form>
-          <button type="submit" className="btn">Submit Now</button>
+          <button type="button" className="btn">Submit Now</button>
         </div>
       </div>
       {/* ----/section-1/--- */}

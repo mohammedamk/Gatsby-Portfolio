@@ -251,7 +251,15 @@
   margin: 5px 10px;
   color: black;
 }
-
+.sec-2 .btn{
+  display: inline-block;
+  background-color: #ff079cce;
+  padding: 10px 10px;
+  border-radius: 50px;
+  margin: 10px;
+  font-weight: 300;
+  font-size: medium;
+}
 
 /* ----aboutSection----- */
 .aboutSection {
