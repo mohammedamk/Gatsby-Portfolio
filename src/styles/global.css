@@ -82,36 +82,38 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 50px 0px;
-
 }
 
 
 .staticData {
-font-weight: 200;
-text-align: center;
-}
-.staticData p{
-  margin-top: 5px;
-}
-.portfoliosData{
-margin: 10px 20px;
-padding: 10px;
-}
-.portfoliosData h2{
-  font-weight: 600;
-}
-.portfoliosData p{
-  border-bottom: 1px solid black;
+  font-weight: 200;
+  text-align: center;
 }
 
-.contact{
+.staticData p {
+  margin-top: 5px;
+}
+
+.portfoliosData {
+  margin: 10px 20px;
+  padding: 10px;
+}
+
+.portfoliosData h2 {
+  font-weight: 600;
+}
+
+.portfoliosData p {
+}
+
+.contact {
   /* border: 1px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
- 
+
 
 /* --------------@media-mobile------------ */
 @media only screen and (max-width:700px) {
@@ -177,5 +179,9 @@ padding: 10px;
     padding: 10px;
   }
 
-
+  .staticData {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+  }
 }

@@ -1,5 +1,7 @@
 
-
+.thumbImage{
+  height: 100px;
+}
 
 
   @media only screen and (max-width:700px) {
