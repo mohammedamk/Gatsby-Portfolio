@@ -5,10 +5,10 @@ import Img from "gatsby-image"
 import "../../styles/projects.module.css"
 
 export default function Projects( {data} ) {
-  console.log("data",data);
+  // console.log("data",data);
 
   const projectData = data.projects.nodes;
-  console.log("projectData",projectData);
+  // console.log("projectData",projectData);
 
   const contact = data.contact.siteMetadata.contact;
   console.log("contact",contact);
